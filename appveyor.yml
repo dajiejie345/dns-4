@@ -6,4 +6,4 @@ install:
   - docker version
 
 build_script:
-  - docker build --build-arg platform=appveyor -t malpine .
+  - docker build --build-arg platform=appveyor-new -t malpine .
